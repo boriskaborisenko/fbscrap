@@ -13,6 +13,6 @@ const scrap = (url) => {
         
 }
 
-scrap('http://ogp.me/');
+scrap(urls[count]);
 
 
