@@ -1,7 +1,7 @@
 const arr = [
-    'https://dev-c.reward-access.com/?lobbyToken=GW2KQ',
-    'https://dev-c.reward-access.com/?lobbyToken=GW2KQ',
-    'https://dev-c.reward-access.com/?lobbyToken=GW2KQ',
+    'http://ogp.me/',
+    'http://ogp.me/',
+    'http://ogp.me/'
 ];
 
 module.exports = arr;
