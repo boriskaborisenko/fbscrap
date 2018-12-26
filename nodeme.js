@@ -6,12 +6,12 @@ const token = 'EAAJJCiYuZAqwBAEelRWDHcQgGvHXeWeeLmu6G8GqA712ArZCsyGJjZBQgBsj5EU7
 const scrap = (url) => {
     const x = 'https://graph.facebook.com/v3.2/?scrape=true&id='+url+'&access_token='+token;
     fetch(x,{method:'POST'})
-        .then(res => res.text())
-        .then(body => {
-            console.log(body)
-            count++
-            count < urls.length ? scrap(urls[count]) : '';
-        })
+    .then(res => res.text())
+    .then(body => {
+        console.log(body)
+        count++
+        count < urls.length ? scrap(urls[count]) : '';
+    })
 }
 
 
