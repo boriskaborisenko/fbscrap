@@ -3,8 +3,7 @@ const urls = require('./urls');
 
 let count = 0;
 const scrap = (url) => {
-    const options = { 'url': url };
-    ogs(options)
+    ogs({ 'url': url })
         .then(function (result) {
             console.log('result:', result);
             count++
